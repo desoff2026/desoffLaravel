@@ -11,13 +11,14 @@
      rel="stylesheet"/>
 </head>
 <body>
-    <h1>hola desde el body del lienzo app</h1>
+ 
 <!--navbar -->
-    @include ('includes.navbar')
+    @include('includes.navbar')
 
-    <div class="container mt-4">
-    @yield('content')
-    </div>
+    
+    @yield('contend')
+
+    
     @include('includes.footer')
 </body>
 </html>
