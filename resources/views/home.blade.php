@@ -65,7 +65,7 @@
     <main class="bg-gray-100">
        
         <div class="container mx-auto px-4 py-8">
-            <h1 class="text-blue-600 text-sm font-bold">BIENVENIDOS A DESOFF</h1>
+            <h1 class="text-blue-600 text-sm font-bold">BIENVENIDOS A DESOFFffff</h1>
             <h2 class="text-4xl font-bold mt-2">SISTEMA DE INFORMACION</h2>
             <h2 class="text-4xl font-bold">PARA LA COMUNICACION</h2>
             <h2 class="text-4xl font-bold">DE DESASTRES NATURALES</h2>
