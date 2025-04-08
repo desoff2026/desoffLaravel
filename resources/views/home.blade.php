@@ -1,57 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DESOFT - Sistemas de Información de Desastres</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body class="bg-gray-100 text-gray-800">
-    <!-- Header -->
-    <header class="bg-blue-600 text-white shadow-md">
-        <div class="container mx-auto flex justify-between items-center py-4">
-            <div class="h-12" height="50" width="150">
-                <!-- Logo placeholder -->
-            </div>
-            <div class="flex items-center">
-                <button id="menu-toggle" class="md:hidden focus:outline-none">
-                    <i class="fas fa-bars text-2xl"></i>
-                </button>
-                <nav id="menu" class="hidden md:flex space-x-4 ml-auto">
-                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="1-vista-home.html">HOME</a>
-                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="2-vista-nuestroProyecto.html">NUESTRO PROYECTO</a>
-                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="4-vista-formulario.html">REPORT ES</a>
-                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="5-vista-INFO-entidad.html">PORTAFOLIO</a>
-                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="http://www.proteccioncivil.gob.mx/work/models/ProteccionCivil/Resource/32/1/images/Formato3.pdf">SOLICITUD RECURSOS</a>
-                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="6-vista-equipo.html">ACERCA DE NOSOTROS</a>
-                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="8-vista-inicio-de-sesion.html">INICIAR SESIÓN</a>
-                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="8-vista-inicio-de-sesion.html"><i class="fas fa-user-circle"></i></a>
-                </nav>
-            </div>
-        </div>
-        <!-- Logo -->
-        <div class="flex justify-center py-4">
-            <img src="img/DESOFF-PROYECTO.png" alt="Logo DESOFT" class="logo">
-        </div>
-    </header>
+@extends('layouts.app')
 
-    <!-- Menú desplegable para móviles -->
-    <div id="mobile-menu" class="md:hidden bg-blue-600 text-white hidden">
-        <nav class="flex flex-col space-y-2 p-4">
-            <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="1-vista-home.html">HOME</a>
-            <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="2-vista-nuestroProyecto.html">NUESTRO PROYECTO</a>
-            <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="4-vista-formulario.html">REPORTES</a>
-            <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="7-manual.html">PORTAFOLIO</a>
-            <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="http://www.proteccioncivil.gob.mx/work/models/ProteccionCivil/Resource/32/1/images/Formato3.pdf">SOLICITUD RECURSOS</a>
-            <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="6-vista-equipo.html">ACERCA DE NOSOTROS</a>
-            <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="8-vista-inicio-de-sesion.html">INICIAR SESIÓN</a>
-            <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="8-vista-inicio-de-sesion.html"><i class="fas fa-user-circle"></i></a>
-        </nav>
-    </div>
-
+@section('contend')
+   
     <script>
         // Script para alternar el menú móvil
         const menuToggle = document.getElementById('menu-toggle');
@@ -286,38 +236,7 @@
             </div>
         </div>
     </section>
-    <!-- Footer -->
-    <footer class="bg-black text-white py-12">
-        <div class="container mx-auto flex flex-wrap justify-between">
-            <div class="w-full md:w-1/3 p-4">
-                <h3 class="font-bold">INFORMATION</h3>
-                <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                <div class="flex space-x-4 mt-4">
-                    <a class="text-white" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="text-white" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="text-white" href="#"><i class="fab fa-instagram"></i></a>
-                    <a class="text-white" href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-            <div class="w-full md:w-1/3 p-4">
-                <h3 class="font-bold">NAVIGATION</h3>
-                <ul class="mt-4 space-y-2">
-                    <li><a class="hover:underline" href="1-vista-home.html">Home</a></li>
-                    <li><a class="hover:underline" href="2-vista-nuestroProyecto.html">nuetro proyecto</a></li>
-                    <li><a class="hover:underline" href="4-vista-formulario.html">Reporte</a></li>
-                    <li><a class="hover:underline" href="5-vista-INFO-entidad.html">portafolio</a></li>
-                    <li><a class="hover:underline" href="6-vista-equipo.html">acerca de nosotros</a></li>
-                </ul>
-            </div>
-            <div class="w-full md:w-1/3 p-4">
-                <h3 class="font-bold">CONTACT US</h3>
-                <p class="mt-4">Lumbung Hidup East Java</p>
-                <p class="mt-2">Hello@Homco.com</p>
-                <input class="mt-4 p-2 w-full rounded" placeholder="Email Address" type="email"/>
-                <button class="mt-4 bg-blue-600 text-white py-2 px-4 rounded">REGISTRATE</button>
-            </div>
-        </div>
-    </footer>
+   
     <script src="1vista.js" defer></script>
-</body>
-</html>
+@endsection
+
