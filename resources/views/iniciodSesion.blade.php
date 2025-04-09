@@ -2,7 +2,7 @@
 
 @section('contend')
 
-<!-- Main Content -->
+<!-- hola cara de   bola-->
 <main class="bg-gray-100 flex items-center justify-center min-h-screen">
         <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
             <h2 class="text-2xl font-bold text-center text-blue-600 mb-6">Iniciar Sesión</h2>
