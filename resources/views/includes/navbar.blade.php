@@ -8,14 +8,14 @@
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
                 <nav id="menu" class="hidden md:flex space-x-4 ml-auto">
-                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="1-vista-home.html">HOME</a>
-                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="2-vista-nuestroProyecto.html">NUESTRO PROYECTO</a>
-                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="4-vista-formulario.html">REPORT ES</a>
-                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="5-vista-INFO-entidad.html">PORTAFOLIO</a>
+                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="/Home">HOME</a>
+                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="/nuestroProyecto">NUESTRO PROYECTO</a>
+                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="/formularioReporte">REPORTES</a>
+                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="/informacionEntidades">PORTAFOLIO</a>
                     <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="http://www.proteccioncivil.gob.mx/work/models/ProteccionCivil/Resource/32/1/images/Formato3.pdf">SOLICITUD RECURSOS</a>
-                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="6-vista-equipo.html">ACERCA DE NOSOTROS</a>
-                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="8-vista-inicio-de-sesion.html">INICIAR SESIÓN</a>
-                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="8-vista-inicio-de-sesion.html"><i class="fas fa-user-circle"></i></a>
+                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="/nuestroProyecto">ACERCA DE NOSOTROS</a>
+                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="/iniciodSesion">INICIAR SESIÓN</a>
+                    <a class="nav-link hover:bg-white hover:bg-opacity-20 transition duration-300 px-4 py-2 rounded" href="/iniciodSesion"><i class="fas fa-user-circle"></i></a>
                 </nav>
             </div>
         </div>
