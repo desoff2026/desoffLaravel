@@ -1,17 +1,7 @@
 @extends('layouts.app')
 
 @section('contend')
-   
-    <script>
-        // Script para alternar el menú móvil
-        const menuToggle = document.getElementById('menu-toggle');
-        const mobileMenu = document.getElementById('mobile-menu');
 
-        menuToggle.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
-    </script>
-    <!-- Main Content -->
     <main class="bg-gray-100">
        
         <div class="container mx-auto px-4 py-8">
